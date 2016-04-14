@@ -5,13 +5,14 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 
+import model.Pager;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import pojo.Pager;
-import pojo.User;
 import service.UserService;
+import database.model.User;
 
 @Controller
 @RequestMapping("user/")

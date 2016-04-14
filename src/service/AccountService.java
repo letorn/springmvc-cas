@@ -1,6 +1,6 @@
 package service;
 
-import pojo.Account;
+import database.model.Account;
 
 public interface AccountService {
 

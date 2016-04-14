@@ -4,23 +4,21 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import pojo.Account;
 import dao.AccountDAO;
-import dao.mapper.AccountMapper;
+import database.mapper.AccountMapper;
+import database.model.Account;
 
 @Repository("accountDAO")
 public class AccountDAOImpl implements AccountDAO {
 
 	@Resource
-	private JdbcTemplate jdbcTemplate;
-	@Resource
 	private AccountMapper accountMapper;
 
 	public Account getByName(String name) {
-		return accountMapper.getByName(name);
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	public List<Account> find(Integer start, Integer limit) {

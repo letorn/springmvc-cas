@@ -2,7 +2,7 @@ package dao;
 
 import java.util.List;
 
-import pojo.Role;
+import database.model.Role;
 
 public interface RoleDAO {
 

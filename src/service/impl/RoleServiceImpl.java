@@ -2,19 +2,22 @@ package service.impl;
 
 import javax.annotation.Resource;
 
-import pojo.Role;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Service;
+
 import service.RoleService;
 import dao.RoleDAO;
+import database.model.Role;
 
-public class RoleServiceImpl implements RoleService
-{
+@Service("roleService")
+@Scope("prototype")
+public class RoleServiceImpl implements RoleService {
 
-    @Resource
-    private RoleDAO roleDAO;
+	@Resource
+	private RoleDAO roleDAO;
 
-    public Role get(Integer id)
-    {
-        return null;
-    }
+	public Role get(Integer id) {
+		return null;
+	}
 
 }

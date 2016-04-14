@@ -1,6 +1,6 @@
 package service;
 
-import pojo.Role;
+import database.model.Role;
 
 public interface RoleService {
 

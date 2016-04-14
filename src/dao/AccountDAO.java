@@ -2,7 +2,7 @@ package dao;
 
 import java.util.List;
 
-import pojo.Account;
+import database.model.Account;
 
 public interface AccountDAO {
 

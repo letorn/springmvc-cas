@@ -2,13 +2,14 @@ package service.impl;
 
 import javax.annotation.Resource;
 
+import model.Pager;
+
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
-import pojo.Pager;
-import pojo.User;
 import service.UserService;
 import dao.UserDAO;
+import database.model.User;
 
 @Service("userService")
 @Scope("prototype")

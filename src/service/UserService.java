@@ -1,7 +1,7 @@
 package service;
 
-import pojo.Pager;
-import pojo.User;
+import model.Pager;
+import database.model.User;
 
 public interface UserService {
 

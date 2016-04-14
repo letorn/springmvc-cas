@@ -2,7 +2,7 @@ package dao;
 
 import java.util.List;
 
-import pojo.User;
+import database.model.User;
 
 public interface UserDAO {
 

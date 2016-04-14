@@ -9,8 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import pojo.Account;
 import service.AccountService;
+import database.model.Account;
 
 @Controller
 @RequestMapping("account/")
